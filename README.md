@@ -1,3 +1,4 @@
+
 # 🌿 TerapI.A – Inteligência Artificial para Apoio Emocional
 
 **TerapI.A** é uma iniciativa que utiliza inteligência artificial para oferecer suporte emocional e psicológico acessível a todas as pessoas. Nosso objetivo é ajudar quem não tem acesso a terapias convencionais, fornecendo um espaço seguro para desabafos, conselhos e técnicas validadas da psicologia.
@@ -35,6 +36,28 @@
 - "Não sei com quem conversar, posso desabafar aqui?"
 
 ---
+
+## 🔐 Segurança da API
+
+Este projeto **NÃO armazena nem expõe sua chave da API**.  
+A chave é solicitada de forma segura com `getpass()` e **não deve ser incluída diretamente no código**.
+
+### ✅ Correto:
+```python
+from getpass import getpass
+API_KEY = getpass("Cole sua API Key do Gemini aqui: ")
+```
+
+---
+
+## 🤝 Agradecimentos
+
+Este projeto foi inspirado e desenvolvido com base na **Imersão IA da [Alura](https://www.alura.com.br/)**, que tornou acessível o uso de tecnologias de ponta de forma criativa e humana.  
+
+Também agradecemos à equipe do **Google Gemini** pelo desenvolvimento de uma API poderosa que possibilita interações mais empáticas e naturais com inteligência artificial.
+
+Gratidão a todas as pessoas envolvidas no movimento por uma IA mais acolhedora e voltada para o bem-estar mental. 🌼💛
+
 
 ## 🔐 Segurança da API
 
